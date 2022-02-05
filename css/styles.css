@@ -191,4 +191,41 @@ body {
 /* ===========END MAIN PAGE=========== */
 
 /* ===========START PORTFOLIO PAGE=========== */
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  color: var(--titles-font-color);
+  background-color: var(--light-background);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--font-color-dark-background);
+  background-color: var(--accent-color);
+}
+
+.projects-link {
+  color: inherit;
+}
+
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--titles-font-color);
+}
+
+.projects-type {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
 /* ===========END PORTFOLIO PAGE=========== */
