@@ -46,6 +46,18 @@ body {
   color: var(--accent-color);
 }
 
+/* Section titles */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--titles-font-color);
+}
+
 /* ===========START MAIN PAGE=========== */
 /* Header */
 .nav-menu-page {
@@ -120,6 +132,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+/* What do we do */
 
 /* ===========END MAIN PAGE=========== */
 
