@@ -11,6 +11,7 @@
   --light-background: #f5f4fa;
   --order-button-hover-color: #188ce8;
   --portfolio-stroke-color: #eeeeee;
+  --team-cards-background-color: #ffffff;
 }
 
 body {
@@ -33,17 +34,21 @@ body {
 /* COMPONENTS */
 
 /* Logo */
-.logo-header {
+.logo {
   font-family: var(--logo-font-family);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-header {
   color: var(--base-logo-color);
 }
 
-.accent-logo {
-  color: var(--accent-color);
+.logo-footer {
+  color: var(--font-color-dark-background);
 }
 
 /* Section titles */
@@ -106,6 +111,7 @@ body {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 
   color: var(--font-color-dark-background);
   background-color: var(--accent-color);
@@ -133,8 +139,55 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* What do we do */
+/* Team */
 
+.team {
+  background-color: var(--light-background);
+}
+
+.team-list-item {
+  background-color: var(--team-cards-background-color);
+}
+
+.team-member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--titles-font-color);
+}
+
+.team-member-position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--dark-background);
+}
+
+.address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--font-color-dark-background-opacity);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+.street {
+  color: var(--font-color-dark-background);
+}
 /* ===========END MAIN PAGE=========== */
 
 /* ===========START PORTFOLIO PAGE=========== */
